@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@300&family=Righteous&family=Roboto:wght@900&family=Titillium+Web&family=Unbounded:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.background-image{
+    background-image: url(./Images/ship-car-choper.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.border-box {
+    border: px solid black;
+    width: 450px;
+    height: 450px;
+    padding: 16px;
+    margin-left: 450px;
+    /* background-color: #fff; */
+    background-color: none;
+    margin-bottom: -150px;
+}
+
+.text1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    padding-left: 50px;
+    text-align: center !important;
+    color: #fff;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 100px;
+    left: -50%;
+    transform: translate(-50%,50%);
+    background: #555;
+    padding: 50px 70px 80px;
+    text-align: center;
+}
+
+.input-field{
+    margin-left: 70px;
+    background: #eaeaea;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #000000;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.bnt-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bnt-field button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group{
+    height: 280px;
+}
+
+.bnt-field button.disable{
+    background: #bbbbbb;
+    color: #3d3d3d;
+}
+
+.text2{
+    color: #fff;
+}
+
+.text3{
+    color: yellow;
+    margin-left: 8px;
+}
